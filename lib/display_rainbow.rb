@@ -4,4 +4,3 @@ def display_rainbow(colors)
   comma_colors.each {|col| print "#{col[0].upcase}: #{col}, "}
   print "#{colors[-1][0].upcase}: #{colors[-1]}"
 end
-display_rainbow(["red","white","blue"])
