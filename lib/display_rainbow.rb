@@ -5,8 +5,8 @@ def display_rainbow(colors)
   i = 0
   n = colors.length
   while i <
-  colors[i] {|col| col_str << "#{col[0].upcase}: #{col}" << ", "} 
-  col_str.pop
+    colors[i] {|col| col_str << "#{col[0].upcase}: #{col}" << ", "} 
+    col_str.pop
   col_str << "\n"
   col_str.each {|str| fin_str << (str)}
   print fin_str
