@@ -7,4 +7,3 @@ def display_rainbow(colors)
   col_str.each {|str| fin_str << (str)}
   print fin_str
 end
-display_rainbow(["red", "white", "blue"])
